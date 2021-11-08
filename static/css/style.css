@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.lab{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 5px;
+    text-align: center;
+    font-size: 60px;
+    background: rgb(0, 119, 255);
+    height: 80px;
+    width: 50%;
+    border-radius: 0 5px 5px 0;
+    transition: all 2s linear;
+    box-shadow: 0px 0px 6px 3px rgb(29, 28, 28, 0.61);
+}
+
+#cab_menu{
+    background: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 7px 8px rgba(29, 28, 28, 0.61);
+}
+
+#cab_menu a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+
+#cab_menu a:hover{
+    background: rgb(0, 60, 255);
+    box-shadow: 0px 0px 6px 1px rgb(0, 60, 255);
+}
+
+#cab_menu a:active{
+    background: black;
+    box-shadow: 0px 0px 6px 1px black;
+}
+
+/*Estilos para la pantalla Home*/
+#logo1{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#Home #contenedor{
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    height: 50%;
+    border-radius: 2px;
+}
+
+#Home #contenedor h1{
+    font-size: 30px;
+}
+
+#pie{
+    background: rgb(0, 119, 255);
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 0px 7px 5px rgba(29, 28, 28, 0.61);
+}
+
+#subtitle1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+/*Estilos de la pantalla de integrantes*/
+#div_img{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#integrantes a{
+    text-decoration: none;
+    background: rgb(70, 163, 7);
+    padding: 5px;
+    border-radius: 3px;
+    color: black;
+    margin: 10px;
+}
+#integrantes a:hover{
+    background: rgb(68, 95, 50);
+    color: black;
+}
+#integrantes a:active{
+    background: rgb(70, 163, 7);
+    color: black;
+}
+
+#integrantes .integ a{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#integrantes{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.integ{
+    background: rgb(0, 60, 255);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 6px 2px rgba(29, 28, 28, 0.61);
+}
+.log_perf{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+/*Estilos para la pantalla imagenes*/
+#deslizador img{
+    width: 350px;
+    height: 275px;
+    margin: 20px;
+    border-radius: 3px;
+}
+
+.seccion{
+    height: 477px;
+}
+
+#deslizador{
+    margin: 50px;
+    background-color:rgb(0, 60, 255);
+    border-radius: 3px;
+    box-shadow: 0 0 6px 2px rgba(29, 28, 28, 0.61);
+}
+
+.flex-cont{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.btn{
+    background: chartreuse;
+    border: 0px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+    box-shadow: 0 0 6px 2px rgba(29, 28, 28, 0.61);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn:hover{
+    background: rgba(39, 48, 18, 0.61) ;
+}
+
+.btn:active{
+    background: chartreuse;
+}
+
+/* Registro----------------- */
+
+#form_registro {
+    width: 50%;
+    height: 500px;
+    display: block;
+    background-color:rgb(0, 60, 255);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 6px 4px rgba(29, 28, 28, 0.61);
+}
+body #form_registro> input, label{
+    display: block;
+}
+#form_registro input{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+    border-radius: 2px;
+    border: none;
+    margin: 5px;
+    width: 40%;
+    font-size: 15px;
+}
+
+#form_registro label{
+    font-size: 20px;
+}
+
+#logo-imagen{
+    width: 100px;
+}
+
+#form_registro > #logo-imagen{
+ 
+    text-align: center;
+}
+
+#form_registro #btn_enviar{
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+#form_registro #btn_enviar:hover{
+    background:rgba(29, 28, 28, 0.61);
+}
+
+#form_registro #btn_enviar:active{
+    background:rgb(0, 60, 255);
+}
+

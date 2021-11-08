@@ -1,0 +1,25 @@
+{% extends "base/base.html" %}
+
+{% block title %}
+{{title}}
+{% endblock %}
+
+{% block content %}
+<h1 id="subtitle1">Registro</h1>
+<form id="form_registro" action="">
+        <img id='logo-imagen' src="{{url_for('static', filename = 'img/img-logo.png')}}" alt="">
+    <label for="">Nombre:</label>
+    <input type="text" name="" id="txtname">
+    <label for="">Apellidos:</label>
+    <input type="text" name="" id="txtapellidos">
+    <label for="">Correo electronico:</label>
+    <input type="email" name="" id="txtemail">
+    <label for="">Contraseña:</label>
+    <input type="password" name="" id="txtpass1">
+    <label for="">Confirme su contraseña:</label>
+    <input type="password" name="" id="txtpass2">
+    <label for="">Edad:</label>
+    <input type="number" name="" id="txtedad">
+    <input id="btn_enviar" type="submit" value="Enviar">
+</form>
+{% endblock %}

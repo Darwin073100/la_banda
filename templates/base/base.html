@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{%block title%} {%endblock%}</title>
+        <link rel="stylesheet" href="{{url_for('static', filename = 'css/style.css')}}">
+        <script src="{{url_for('static', filename = 'js/jquery.js')}}"></script>
+    </head>
+    <body>
+        <header id="cab_menu">
+            <a href="{{url_for('home')}}">Home</a>
+            <a href="{{url_for('integ')}}">Integrantes</a>
+            <a href="{{url_for('image')}}">Imagenes</a>
+            <a href="{{url_for('reg')}}">Registrate</a>
+            <a href="#">Inicia Sesión</a>
+        </header>
+
+        {% block content %}
+            <!--Sección para edición-->
+        {% endblock %}
+
+        <footer id="pie">Esta pagina esta protegida con derechos&copy; de autor</footer>
+    </body>
+</html>

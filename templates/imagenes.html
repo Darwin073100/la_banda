@@ -1,0 +1,23 @@
+{% extends 'base/base.html' %}
+
+{% block title %}
+    {{title}}
+{% endblock %}
+
+{% block content %}
+<h1 id='subtitle1'>Imagenes</h1>
+    <section class="seccion">
+        <div  id="deslizador">
+            <article class = 'flex-cont'>
+                <img id="slider1" src="{{url_for('static', filename = 'img/amb.jpg')}}" alt="">
+                <img id="slider2" src="{{url_for('static', filename = 'img/integrantes/edwin.jpg')}}" alt="">
+                <img id="slider3" src="{{url_for('static', filename = 'img/integrantes/erika.jpg')}}" alt="">
+            </article>
+            <article class="flex-cont">
+                <button class="btn" onclick="atras()">Atras</button>
+                <button class="btn" onclick="prev()">Inicio</button>
+                <button class="btn" onclick="next()">Siguiente</button>
+            </article>
+        </div>
+    </section>
+{% endblock %}

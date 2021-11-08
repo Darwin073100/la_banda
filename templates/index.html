@@ -1,0 +1,22 @@
+{% extends 'base/base.html' %}
+
+{% block title %}
+    {{title}}
+{% endblock %}
+
+{% block content %}
+    <section class="seccion">
+        <article id="Home">
+            <h1 class="lab">La Banda(Oficial)</h1>
+            <div id="contenedor">
+                <img src="{{url_for('static', filename = 'img/amb.jpg')}}" alt="La banda" id="logo1">
+                <hr>
+                <p style="text-shadow: 0 2px 2px rgb(83, 85, 83);">En ésta página encontraas información de este grupo de amigos de la universidad, 
+                    que a pesar de todos los problemas por los que el pais paso siempre siguieron 
+                    adelante para seguir con sus estudios en la carrera de Ingenieria en Tecnologías 
+                    de la Información y Comunicaciones.</p>
+            </div>
+        </article>
+    </section>
+{% endblock %}
+       

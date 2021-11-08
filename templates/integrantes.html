@@ -1,0 +1,42 @@
+{% extends 'base/base.html' %}
+
+{% block title %}
+    {{title}}
+{% endblock %} 
+
+{% block content %}
+    <h1 id="subtitle1">Integrantes</h1>
+    <section id="integrantes" class="seccion">
+        <article class="integ" id="Erika">
+            <div id="div_img"><img class="log_perf" src="{{url_for('static', filename = 'img/integrantes/erika.jpg')}}" alt="Erika"></div>
+            <h1>Erika García Morales</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt harum vero architecto ipsa odio exercitationem ipsam laboriosam sint commodi repellendus distinctio dolore, adipisci nihil accusantium laudantium in mollitia ea culpa?</p>
+            <br>
+            <a href="#">Ir al perfil</a>
+        </article>
+        <article class="integ" id="Isaias">
+            <div id="div_img"><img class="log_perf" src="{{url_for('static', filename = 'img/integrantes/isaias.jpg')}}" alt="Isaias"></div>
+            <h1>Isaias Guillen Nazario</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt harum vero architecto ipsa odio exercitationem ipsam laboriosam sint commodi repellendus distinctio dolore, adipisci nihil accusantium laudantium in mollitia ea culpa?</p>
+            <a href="#">Ir al perfil</a>
+        </article>
+        <article class="integ" id="Oscar">
+            <div id="div_img"><img class="log_perf" src="{{url_for('static', filename = 'img/integrantes/oscar.jpg')}}" alt="Oscar"></div> 
+            <h1>Oscar Liborio Huerta</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt harum vero architecto ipsa odio exercitationem ipsam laboriosam sint commodi repellendus distinctio dolore, adipisci nihil accusantium laudantium in mollitia ea culpa?</p>
+            <a href="#">Ir al perfil</a>
+        </article>
+        <article class="integ" id="Rubi">
+            <div id="div_img"><img class="log_perf" src="{{url_for('static', filename = 'img/integrantes/rubi.jpg')}}" alt="Rubi"></div>
+            <h1>Rubicelda Rea Macedonio</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt harum vero architecto ipsa odio exercitationem ipsam laboriosam sint commodi repellendus distinctio dolore, adipisci nihil accusantium laudantium in mollitia ea culpa?</p>
+            <a href="#">Ir al perfil</a>
+        </article>
+        <article class="integ" id="Edwin">
+            <div id="div_img"><img class="log_perf" src="{{url_for('static', filename = 'img/integrantes/edwin.jpg')}}" alt="Edwin"></div>
+            <h1>Edwin García Quiterio</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt harum vero architecto ipsa odio exercitationem ipsam laboriosam sint commodi repellendus distinctio dolore, adipisci nihil accusantium laudantium in mollitia ea culpa?</p>
+            <a href="#">Ir al perfil</a>
+        </article>
+    </section>
+{% endblock %}
